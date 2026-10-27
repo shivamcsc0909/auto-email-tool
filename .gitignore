@@ -1,0 +1,78 @@
+# Node dependencies
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+!.env.example
+
+# Database
+prisma/*.db
+prisma/*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage / Tests
+coverage/
+.nyc_output/
+
+# Temp
+temp/
+tmp/
+scratch/
+
+# Automatically generated safety ignore rules
+node_modules/
+.pnp/
+.pnp.js
+.next/
+.nuxt/
+dist/
+build/
+out/
+.cache/
+.gradle/
+android/app/build/
+**/build/
+*.apk
+*.aab
+*.so
+*.dylib
+*.bin
+*.ap_
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.DS_Store
+Thumbs.db
+upload_all_to_github.py
